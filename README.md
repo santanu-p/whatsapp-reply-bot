@@ -14,6 +14,7 @@ An intelligent WhatsApp bot that automatically replies to group messages using G
 
 ## Quick Links 📚
 
+- ⚡ **[Quick Start](QUICKSTART.md)** - Get started in 3 steps
 - 🚀 **[Deployment Guide](DEPLOYMENT.md)** - Production deployment instructions for VPS, Docker, PM2, and cloud platforms
 - 📖 **[Examples](EXAMPLES.md)** - See the bot in action with example conversations
 - 🤝 **[Contributing](CONTRIBUTING.md)** - Contribute to the project
