@@ -10,3 +10,16 @@ yarn-error.log*
 .DS_Store
 .vscode/
 .idea/
+
+# PM2
+logs/
+pids/
+*.pid
+
+# Docker volumes
+wwebjs_auth/
+
+# Backup files
+*.tar.gz
+*.zip
+*.backup

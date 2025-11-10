@@ -12,6 +12,12 @@ An intelligent WhatsApp bot that automatically replies to group messages using G
 - 🚫 **Self-Awareness**: Doesn't respond to its own messages
 - ⚡ **Real-time**: Instant responses with typing indicators
 
+## Quick Links 📚
+
+- 🚀 **[Deployment Guide](DEPLOYMENT.md)** - Production deployment instructions for VPS, Docker, PM2, and cloud platforms
+- 📖 **[Examples](EXAMPLES.md)** - See the bot in action with example conversations
+- 🤝 **[Contributing](CONTRIBUTING.md)** - Contribute to the project
+
 ## Prerequisites 📋
 
 Before you begin, ensure you have:
@@ -68,6 +74,18 @@ Before you begin, ensure you have:
    - Once authenticated, the bot will listen to all group messages
    - It will automatically reply to messages from other members
    - The bot will NOT respond to your own messages
+
+## Production Deployment 🌐
+
+For production deployments on servers, cloud platforms, or with Docker, see the **[Deployment Guide](DEPLOYMENT.md)**.
+
+Quick deployment options:
+- **Docker**: `docker-compose up -d` (easiest)
+- **PM2**: `pm2 start ecosystem.config.js` (process management)
+- **Systemd**: Linux service for auto-start on boot
+- **Cloud**: AWS, DigitalOcean, Google Cloud, Heroku
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
 
 ## How It Works 🔧
 
